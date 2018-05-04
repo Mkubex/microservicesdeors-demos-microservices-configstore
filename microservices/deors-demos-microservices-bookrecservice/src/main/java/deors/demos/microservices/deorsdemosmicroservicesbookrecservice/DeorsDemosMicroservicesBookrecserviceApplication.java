@@ -5,9 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @org.springframework.cloud.client.discovery.EnableDiscoveryClient
-public class DeorsDemosMicroservicesBookrecserviceApplication {
+public class BookrecserviceApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(DeorsDemosMicroservicesBookrecserviceApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(BookrecserviceApplication.class, args);
+    }
 }
